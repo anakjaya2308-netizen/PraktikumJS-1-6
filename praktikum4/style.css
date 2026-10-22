@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8fafc;
+    color: #0f172a;
+    transition: .3s;
+}
+
+body.gelap {
+    background: #0f172a;
+    color: #f1f5f9;
+}
+
+.panel {
+    width: 360px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.angka {
+    font-size: 48px;
+    margin: 8px 0;
+}
+
+.angka.negatif {
+    color: #ef4444;
+}
+
+.kotak {
+    width: 120px;
+    height: 120px;
+    margin: 10px auto;
+    background: #94a3b8;
+    border-radius: 12px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+button {
+    padding: 8px 14px;
+    margin: 4px;
+    cursor: pointer;
+}

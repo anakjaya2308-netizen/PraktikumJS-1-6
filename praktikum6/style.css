@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+}
+
+form {
+    width: 380px;
+    margin: 30px auto;
+    padding: 24px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 2px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+input.error {
+    border-color: #ef4444;
+}
+
+input.valid {
+    border-color: #22c55e;
+}
+
+.pesan {
+    color: #ef4444;
+    min-height: 16px;
+    display: block;
+}
+
+button {
+    margin-top: 16px;
+    width: 100%;
+    padding: 10px;
+    background: #0f766e;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+#sukses {
+    color: #15803d;
+    font-weight: bold;
+}

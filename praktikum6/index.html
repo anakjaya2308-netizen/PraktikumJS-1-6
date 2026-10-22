@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Praktikum 6 - Validasi Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form id="formDaftar" novalidate>
+        <h2>Pendaftaran UKM Programming</h2>
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama">
+        <small class="pesan"></small>
+        <label for="nim">NIM</label>
+        <input type="text" id="nim">
+        <small class="pesan"></small>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <small class="pesan"></small>
+        <label for="sandi">Kata Sandi</label>
+        <input type="password" id="sandi">
+        <small class="pesan"></small>
+        <label for="ulang">Ulangi Kata Sandi</label>
+        <input type="password" id="ulang">
+        <small class="pesan"></small>
+        <button type="submit">Daftar</button>
+        <p id="sukses"></p>
+    </form>
+</body>
+</html>
