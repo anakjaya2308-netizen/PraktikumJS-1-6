@@ -34,11 +34,11 @@ Praktikum ini bertujuan untuk memahami konsep dasar JavaScript dalam lingkungan 
 #### A. Deklarasi Variabel dan Tipe Data
 ```javascript
 // 1. Deklarasi variabel
-const nama = "Rahmat Imran";
-const nim = "05301425096";
+const nama = "A.Candra Augwancha Msh";
+const nim = "05301425104";
 let semester = 3;
 const aktif = true;
-const hobi = ["Coding", "Bermain Gitar", "Berenang"];
+const hobi = ["Modifikasi Motor", "Badminton", "Speeding"];
 ```
 - **`const`**: Digunakan untuk nilai yang tidak akan diubah/ditugaskan ulang (*re-assign*), seperti `nama` (*String*), `nim` (*String*), status `aktif` (*Boolean*), dan daftar `hobi` (*Array*).
 - **`let`**: Digunakan untuk variabel `semester` (*Number*) karena nilainya bersifat dinamis dan dapat bertambah seiring waktu.
